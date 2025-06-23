@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Symptom Checker Bot</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Symptom Checker Bot 🤖</h1>
+    <p>Select a symptom from the list:</p>
+    <select id="symptomSelect">
+      <option disabled selected value="">-- Choose a Symptom --</option>
+    </select>
+    <div id="details" class="hidden">
+      <h2 id="symptomTitle"></h2>
+      <h3>Possible Conditions:</h3>
+      <ul id="conditions"></ul>
+      <h3>Remedies:</h3>
+      <ul id="remedies"></ul>
+      <h3>Medicines:</h3>
+      <ul id="medicines"></ul>
+      <div id="medicineImages" class="images"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
